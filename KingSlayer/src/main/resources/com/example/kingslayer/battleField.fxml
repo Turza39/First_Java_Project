@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kingslayer.HelloController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" opacity="0.36" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane layoutX="366.0" layoutY="125.0" prefHeight="626.0" prefWidth="778.0">
+         <children>
+            <Line endX="396.800048828125" endY="463.60003662109375" layoutX="231.0" layoutY="64.0" startX="-78.39996337890625" startY="32.399993896484375" />
+            <Line endX="159.4000244140625" layoutX="353.0" layoutY="187.0" startX="-100.0" />
+            <Line endX="344.199951171875" layoutX="274.0" layoutY="528.0" startX="-115.0" />
+            <Line endX="493.507080078125" endY="-174.0" layoutX="135.0" layoutY="276.0" startX="20.47491455078125" startY="252.0" />
+            <Line endX="274.47491455078125" endY="231.0" layoutX="125.0" layoutY="302.0" startX="275.39996337890625" startY="-200.70709228515625" />
+            <Line endX="497.0" endY="50.692901611328125" layoutX="125.0" layoutY="45.0" startX="25.8929443359375" startY="50.692901611328125" />
+            <Line endX="358.5999755859375" endY="-6.0" layoutX="177.0" layoutY="445.0" startX="73.79998779296875" startY="-6.0" />
+            <Circle fill="DODGERBLUE" layoutX="152.0" layoutY="95.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="622.0" layoutY="95.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="399.0" layoutY="96.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="250.0" layoutY="187.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="536.0" layoutY="187.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="399.0" layoutY="187.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="399.0" layoutY="312.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="250.0" layoutY="439.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="400.0" layoutY="439.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="536.0" layoutY="439.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="400.0" layoutY="528.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="622.0" layoutY="533.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="DODGERBLUE" layoutX="159.0" layoutY="528.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView fx:id="A" fitHeight="48.0" fitWidth="46.0" layoutX="129.0" layoutY="72.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngkit_ninja-png_123460.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="B" fitHeight="48.0" fitWidth="46.0" layoutX="374.0" layoutY="72.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngkit_ninja-png_123460.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="C" fitHeight="48.0" fitWidth="46.0" layoutX="599.0" layoutY="72.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngkit_ninja-png_123460.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="D" fitHeight="48.0" fitWidth="46.0" layoutX="225.0" layoutY="163.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngkit_ninja-png_123460.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="E" fitHeight="48.0" fitWidth="46.0" layoutX="374.0" layoutY="163.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngkit_ninja-png_123460.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="F" fitHeight="48.0" fitWidth="46.0" layoutX="513.0" layoutY="164.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngkit_ninja-png_123460.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="G" fitHeight="48.0" fitWidth="46.0" layoutX="374.0" layoutY="289.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngkit_ninja-png_123460.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="H" fitHeight="48.0" fitWidth="46.0" layoutX="225.0" layoutY="415.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="I" fitHeight="48.0" fitWidth="46.0" layoutX="374.0" layoutY="416.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Crown-PNG-Free-Download.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="J" fitHeight="48.0" fitWidth="46.0" layoutX="513.0" layoutY="415.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="K" fitHeight="48.0" fitWidth="46.0" layoutX="135.0" layoutY="504.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="L" fitHeight="48.0" fitWidth="46.0" layoutX="374.0" layoutY="504.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="M" fitHeight="48.0" fitWidth="46.0" layoutX="599.0" layoutY="509.0" onMouseClicked="#move" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="turn" alignment="CENTER" layoutX="319.0" layoutY="-9.0" prefHeight="26.0" prefWidth="159.0" style="-fx-border-color: purple; -fx-border-radius: 4;" text="Soldier's Move...">
+               <font>
+                  <Font name="System Italic" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button layoutX="224.0" layoutY="68.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="35.0" prefWidth="97.0" text="Back to Menu">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="1154.0" layoutY="73.0" mnemonicParsing="false" onMouseClicked="#ixt" prefHeight="22.0" prefWidth="77.0" style="-fx-border-color: red;" text="EXIT">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

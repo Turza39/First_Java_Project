@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kingslayer.HelloController">
+   <children>
+      <TextArea editable="false" layoutX="169.0" layoutY="74.0" prefHeight="574.0" prefWidth="1274.0" text="                                                                                                                    &#10;&#10;&#10;                                                                    HOW TO PLAY THIS GAME??  &#10;&#10;&#10;Well, in the battle field, there will be a King and and 7 other assasins who will try to kill the king. Each assasin can move to their adjacent spots if it is free. The king also can move to at most one   spot at a time, but in a special case, if there is a soldier in front of the king and there is a free spot just after the soldier, the king can kill the soldier if he wants and move to that free spot with a jump.  The king cannot kill a soldier if there isn't any free spot just after that soldier. The soldiers will try to confine the king. If there remains no free space for the king to move, the soldiers win. And if there remains less than 4 soldiers anytime, the king wins." wrapText="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="727.0" layoutY="668.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="30.0" prefWidth="133.0" text="Back to Menu" />
+   </children>
+</AnchorPane>
